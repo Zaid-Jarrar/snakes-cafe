@@ -42,9 +42,6 @@ Unicorn Tears
     """)
  
 
-
-
-
 intro_message()
 
 order_list = []
@@ -71,6 +68,7 @@ while True:
     elif order not in menu:
 
         print('\nplease choose one from the menu\n')
+        
 
 print('\nYour order is ' + ', '.join(order_list))
 
