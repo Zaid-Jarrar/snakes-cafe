@@ -42,9 +42,6 @@ Unicorn Tears
     """)
  
 
-
-
-
 intro_message()
 
 order_list = []
