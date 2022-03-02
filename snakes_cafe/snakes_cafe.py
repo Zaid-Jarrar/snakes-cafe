@@ -1,6 +1,3 @@
-from turtle import title
-
-
 def intro_message():
     print(""" 
 
