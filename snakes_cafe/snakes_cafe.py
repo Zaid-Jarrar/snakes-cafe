@@ -1,6 +1,3 @@
-from turtle import title
-
-
 def intro_message():
     print(""" 
 
@@ -47,7 +44,9 @@ intro_message()
 order_list = []
 
 menu = ['Wings', 'Cookies', 'Spring Rolls','Salmon','Steak','Meat Tornado','A Literal Garden','Ice Cream','Cake','Pie','Coffee','Tea','Unicorn Tears' ]
+
 while True:
+    
     order = input(">  " ).lower().title()
     
     if order in menu and order not in order_list:
